@@ -10,6 +10,14 @@ repositories {
 }
 
 dependencies {
+    // add lombook for logging with @Slf4
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.30'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    // add log implementation
     implementation 'org.slf4j:slf4j-api:2.0.11'
     implementation 'org.slf4j:slf4j-simple:2.0.11'
 
