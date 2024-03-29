@@ -7,6 +7,7 @@ import javax.crypto.spec.GCMParameterSpec;
 import java.util.Base64;
 
 /**
+ * https://xmind.app/embed/J4Da/
  * A class of cipher that uses identical keys for encryption and decryption.
  * A symmetric key may be referred to as: secret key, or private key, or shared key
  * Examples: DES, 3DES, RC, AES
