@@ -11,6 +11,7 @@ import java.util.Base64;
 
 /**
  * https://xmind.app/embed/J4Da/
+ * https://medium.com/@sharadblog/encryption-and-decryption-in-java-60948b8a3613
  * A type of cipher that uses a pair of different keys to encrypt and decrypt data.
  *  --> public key: Encrypts data
  *  --> private key: decrypts data
